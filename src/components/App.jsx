@@ -13,11 +13,11 @@ function App() {
   return (
     <div style={globalStyling}>
       <Header />
-          <Profile />
-          <Feed />
 
-          <Suggested />
- 
+      <Profile />
+      <Feed />
+      <Suggested />
+
     </div>
   );
 }
