@@ -1,7 +1,7 @@
 import React from "react";
 
-function tabsStyles(){
-    var tabstabsStylesStyles = {
+function Tabs(){
+    var tabsStyles = {
         border: "2px solid lightgrey",
         fontSize: "20px",
         float: "left"
@@ -9,11 +9,11 @@ function tabsStyles(){
 
     return (
         <div>
-            <button style={tabstabsStylesStyles}>Home</button>
-            <button style={tabstabsStylesStyles}>Notifications</button>
-            <button style={tabstabsStylesStyles}>Messages</button>
+            <button style={tabsStyles}>Home</button>
+            <button style={tabsStyles}>Notifications</button>
+            <button style={tabsStyles}>Messages</button>
         </div>
         );
 }
 
-export default tabsStyles;
+export default Tabs;

@@ -1,6 +1,5 @@
 import React from "react";
 import Info from "./Info";
-import ProfileButtons from "./ProfileButtons";
 import Bio from "./Bio";
 
 function Profile() {
@@ -10,7 +9,6 @@ function Profile() {
     return (
         <div style={profileStyles}>
             <Info></Info>
-            <ProfileButtons></ProfileButtons>
             <Bio></Bio>
         </div>
     );
