@@ -44,7 +44,16 @@ module.exports = {
             "react-hot-loader/babel"
           ]
         }
-      }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {},
+          },
+        ],
+      },
     ]
   },
 
