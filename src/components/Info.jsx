@@ -6,7 +6,7 @@ function Info() {
     var infoStyles = {
         border: "2px solid lightgrey",
         height: "25vh",
-        width: "300px",
+        width: "30vw",
     }
     var blueRectangle = {
         background: "	#4B7EBF",
