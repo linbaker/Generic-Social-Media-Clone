@@ -1,8 +1,19 @@
 import React from "react";
+import Search from "./Search";
+import TweetButton from "./TweetButton";
+import Tabs from "./Tabs";
 
-function Header(){
+function Header() {
+    var headerStyles = {
+        borderBottom: "2px solid lightgrey"
+    }
     return (
-        <h1>Help Queue</h1>
+        <div style={headerStyles}>
+            <Tabs></Tabs>
+            <TweetButton></TweetButton>
+            <Search></Search>
+            <br></br><br></br>
+        </div>
     );
 }
 

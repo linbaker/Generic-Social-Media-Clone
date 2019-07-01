@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const { resolve } = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -17,7 +18,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [ '.js', '.jsx' ]
+    extensions: ['.js', '.jsx']
   },
 
   devtool: '#source-map',
@@ -37,7 +38,7 @@ module.exports = {
         options: {
           presets: [
             ["es2015", {"modules": false}],
-            "react"
+            "react",
           ],
           plugins: [
             "react-hot-loader/babel"
@@ -46,8 +47,15 @@ module.exports = {
       }
     ]
   },
+
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
+    new HtmlWebpackPlugin({
+      template:'template.ejs',
+      appMountId: 'react-app-root',
+      title: 'Social Media Thing',
+      filename: resolve(__dirname, "build", "index.html"),
+    }),
   ]
 };
