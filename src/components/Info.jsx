@@ -10,7 +10,7 @@ function Info() {
         marginTop: "15px"
     }
     var blueRectangle = {
-        background: "	#4B7EBF",
+        background: "#4B7EBF",
         height: "60%",
         width: "100%"
     }
