@@ -7,12 +7,15 @@ function ProfileButtons(){
             marginTop: "6vh",
             fontSize: "12"
         }
+    var linkStyle = {
+        marginRight: "5px"
+    }
 
     return (
         <div style={profileButtonStyles}>
-            <a>TWEETS  </a> 
-            <a>  FOLLOWING  </a> 
-            <a>  FOLOLOWERS</a>
+            <a style={linkStyle}>TWEETS</a> 
+            <a style={linkStyle}>FOLLOWING</a> 
+            <a>FOLOLOWERS</a>
         </div>
         );
 }

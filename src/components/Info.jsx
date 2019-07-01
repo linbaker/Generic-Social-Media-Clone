@@ -18,7 +18,7 @@ function Info() {
         height: "8vh",
         zIndex: "1",
         position: "absolute",
-        top: "16vh",
+        top: "20vh",
         left: "3vw",
         borderRadius: "25px",
         border: "2px solid lightgrey",
@@ -27,7 +27,7 @@ function Info() {
         float: "right",
         margin: "0",
         marginRight: "10px",
-        fontSize: "25",
+        fontSize: "20",
         color: "grey"
     }
     return (

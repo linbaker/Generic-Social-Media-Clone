@@ -4,7 +4,10 @@ import Bio from "./Bio";
 
 function Profile() {
     var profileStyles = {
-        
+        gridRowStart: "1",
+        gridRowEnd: "2",
+        gridColumnStart: "1", 
+        gridColumnEnd: "2" 
     }
     return (
         <div style={profileStyles}>

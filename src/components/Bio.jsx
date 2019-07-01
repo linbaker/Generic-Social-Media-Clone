@@ -11,7 +11,7 @@ function Bio(){
         color: "grey"
         }
     var bioText = {
-        padding: "3%",
+        padding: "6%",
         lineHeight: "1.5",
         fontSize: "16"
         }
