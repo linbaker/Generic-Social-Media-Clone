@@ -22,9 +22,17 @@ function Info() {
         borderRadius: "25px",
         border: "2px solid lightgrey",
     }
+    var name = {
+        float: "right",
+        margin: "0",
+        marginRight: "10px",
+        fontSize: "25",
+        color: "grey"
+    }
     return (
         <div style={infoStyles}>
             <div style={blueRectangle}></div>
+            <p style={name}>Brian Hensley</p>
             <img style={profileImage} src={BlankProfilePic} alt="Blank Profile Picture"/>
             <ProfileButtons></ProfileButtons>
         </div>

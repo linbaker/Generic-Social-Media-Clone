@@ -3,7 +3,8 @@ import React from "react";
 function ProfileButtons(){
     var profileButtonStyles = {
             color: "grey",
-            textAlign: "center"
+            textAlign: "center",
+            marginTop: "6vh"
         }
 
     return (

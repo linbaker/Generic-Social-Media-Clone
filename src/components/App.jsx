@@ -3,8 +3,12 @@ import Header from "./Header";
 import Profile from "./Profile";
 
 function App(){
+
+  var globalStyling = {
+    fontFamily: "Helvetica Neue"
+  }
   return (
-    <div>
+    <div style={globalStyling}>
       <Header/>
       <Profile/>
     </div>
