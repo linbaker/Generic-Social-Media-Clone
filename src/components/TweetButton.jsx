@@ -5,7 +5,13 @@ function TweetButton(){
         borderRadius: "25px",
         border: "2px solid lightblue",
         fontSize: "20px",
-        float: "right"
+        padding: "5px",
+        float: "right",
+        margin: "7px",
+        color: "grey",
+        paddingLeft: "20px",
+        paddingRight: "20px"
+
         }
 
     return (

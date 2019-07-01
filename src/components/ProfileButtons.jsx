@@ -4,14 +4,15 @@ function ProfileButtons(){
     var profileButtonStyles = {
             color: "grey",
             textAlign: "center",
-            marginTop: "6vh"
+            marginTop: "6vh",
+            fontSize: "12"
         }
 
     return (
         <div style={profileButtonStyles}>
-            <a>TWEETS </a> 
-            <a>FOLLOWING </a> 
-            <a>FOLOLOWERS</a>
+            <a>TWEETS  </a> 
+            <a>  FOLLOWING  </a> 
+            <a>  FOLOLOWERS</a>
         </div>
         );
 }

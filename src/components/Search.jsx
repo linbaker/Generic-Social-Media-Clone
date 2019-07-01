@@ -6,6 +6,8 @@ function Search(){
         border: "2px solid lightblue",
         fontSize: "20px",
         float: "right",
+        padding: "5px",
+        margin: "7px"
         }
 
     return (

@@ -5,14 +5,14 @@ import Tabs from "./Tabs";
 
 function Header() {
     var headerStyles = {
-        borderBottom: "2px solid lightgrey"
+        borderBottom: "2px solid lightgrey",
     }
     return (
         <div style={headerStyles}>
             <Tabs></Tabs>
             <TweetButton></TweetButton>
             <Search></Search>
-            <br></br><br></br>
+            <br></br><br></br><br></br><br></br>
         </div>
     );
 }

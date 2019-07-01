@@ -7,6 +7,7 @@ function Info() {
         border: "2px solid lightgrey",
         height: "25vh",
         width: "30vw",
+        marginTop: "15px"
     }
     var blueRectangle = {
         background: "	#4B7EBF",
